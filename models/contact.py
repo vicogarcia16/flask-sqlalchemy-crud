@@ -1,6 +1,7 @@
 
 from utils.db import db
 
+    
 class Contact(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     fullname = db.Column(db.String(100))
@@ -11,3 +12,4 @@ class Contact(db.Model):
         self.fullname = fullname
         self.email = email
         self.phone = phone
+        

@@ -4,6 +4,7 @@
     <div class="col-md-4 offset-md-4">
         <div class="card-body p-4">
             <form action="/update/{{contact.id}}" method="POST" class="card bg-dark text-light">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                 <div class="mb-3">
                     <label for="fullname">Fullname</label>
                     <input type="text" name="fullname" placeholder="Fullname" value="{{contact.fullname}}" class="form-control rounded-0 bg-dark border-0 text-light">
