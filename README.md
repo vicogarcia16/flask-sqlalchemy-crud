@@ -1,6 +1,6 @@
 # Flask SQLAlchemy CRUD
 
-Creacion e implementación de un CRUD utilizando Python con su Framework Web Flask y la libreria SQLAlchemy 
+Creacion e implementación de un CRUD con Login utilizando Python con su Framework Web Flask y la libreria SQLAlchemy, Flask-login 
 
 ## Ejecución del software ⚙️
 
