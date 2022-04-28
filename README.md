@@ -4,6 +4,8 @@ Creacion e implementación de un CRUD utilizando Python con su Framework Web Fla
 
 ## Ejecución del software ⚙️
 
+* Realizar un entorno virtual con virtualenv
++ Ejecturar **pip install -r requirements.txt**
 * Ejecutar en la terminal **python app.py**
 
 ## Base de datos
