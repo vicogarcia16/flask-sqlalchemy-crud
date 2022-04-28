@@ -2,6 +2,20 @@
 
 Creacion e implementación de un CRUD utilizando Python con su Framework Web Flask y la libreria SQLAlchemy 
 
+## Ejecución del software ⚙️
+
+* Ejecutar en la terminal **python app.py**
+
+## Base de datos
+
+Guardar en la raiz del proyecto, un archivo .env con la estructura siguiente:
+
+MYSQL_USER = tuusuario  
+MYSQL_PASSWORD = tucontraseña  
+MYSQL_HOST = tuservidor  
+MYSQL_DATABASE = tubasededatos
+ 
+
 ## Construido con 🛠️
 
 * [Python](https://www.python.org/) - Lenguaje de programación
