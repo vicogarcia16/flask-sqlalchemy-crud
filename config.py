@@ -8,4 +8,4 @@ password = os.environ['MYSQL_PASSWORD']
 host = os.environ['MYSQL_HOST']
 database = os.environ['MYSQL_DATABASE']
 
-DATABASE_CONNECTION_URI = F'mysql://{user}:{password}@{host}/{database}'
+DATABASE_CONNECTION_URI = f'mysql://{user}:{password}@{host}/{database}'

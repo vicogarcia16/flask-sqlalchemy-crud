@@ -1,4 +1,3 @@
-
 from app import app
 from routes.login import csrf
 from utils.db import db
